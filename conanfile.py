@@ -10,7 +10,7 @@ class GhostmoduleConan(ConanFile):
     description = "ghostmodule extension to integrate gRPC."
     topics = ("framework", "microservice", "command-line", "database", "grpc")
     settings = "os", "compiler", "build_type", "arch"
-     options = {"shared": [True, False], "fPIC": [True, False]}
+    options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
     generators = "cmake"
 
