@@ -59,10 +59,6 @@ int main()
 	// Since we want to use the logger, we provide one to the builder. More options are available here.
 	builder->setLogger(ghost::StdoutLogger::create());
 
-	// Add the data extension
-	auto persistenceBuilder = ghost::PersistenceExtensionBuilder::create();
-	builder->addExtensionBuilder(persistenceBuilder);
-
 	// add the connection extension
 	auto connectionBuilder = ghost::ConnectionExtensionBuilder::create();
 	auto connectionManager = connectionBuilder->configureConnectionManager();
