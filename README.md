@@ -7,14 +7,14 @@ _______  _      _  ______  ________ _________      '_' \
 
 # Conan recipe for ghostmodule-grpc
 
-Lightweight, multiplatform and accessible framework for command line-based programs and C++ microservices.
+ghostmodule (https://github.com/mathieunassar/ghostmodule) extension to integrate gRPC.
 
 https://github.com/mathieunassar/ghostmodule-grpc
 
 |     Build system     |                         Build status                         |
 | :------------------: | :----------------------------------------------------------: |
-|  Windows (Appveyor)  | [![Build status](https://ci.appveyor.com/api/projects/status/0qewqv8g3b1epwgu/branch/master?svg=true)](https://ci.appveyor.com/project/mathieunassar/ghostmodule-conan/branch/master) |
-| Linux & OSX (Travis) | [![Build Status](https://travis-ci.com/mathieunassar/ghostmodule-conan.svg?branch=master)](https://travis-ci.com/mathieunassar/ghostmodule-conan) |
+|  Windows (Appveyor)  | [![Build status](https://ci.appveyor.com/api/projects/status/rfup183lv0v28b4n/branch/master?svg=true)](https://ci.appveyor.com/project/mathieunassar/ghostmodule-grpc-conan/branch/master) |
+| Linux & OSX (Travis) | [![Build Status](https://travis-ci.com/mathieunassar/ghostmodule-grpc-conan.svg?branch=master)](https://travis-ci.com/mathieunassar/ghostmodule-grpc-conan) |
 
 ## Issues
 
